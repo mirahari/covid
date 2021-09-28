@@ -41,12 +41,6 @@ ORDER BY highest_death_count DESC
 
 -- Continent with Highest Death Count
 
---SELECT continent, MAX(cast(total_deaths AS INT)) as highest_death_count
---FROM Covid19..CovidDeaths
---WHERE continent IS NOT NULL
---GROUP BY continent
---ORDER BY highest_death_count DESC
-
 SELECT location, MAX(cast(total_deaths AS INT)) as highest_death_count
 FROM Covid19..CovidDeaths
 WHERE continent IS NULL
