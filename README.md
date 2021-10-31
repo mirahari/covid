@@ -1,1 +1,1 @@
-# covid
+https://ourworldindata.org/covid-deaths
